@@ -4,20 +4,33 @@ body {
 
 h1 {
   text-align: center;
+  background-color: #d6d6d6;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 img {
   max-width: 100%;
 }
 
+button{
+  margin: 5px;
+  padding: 3px 60px;
+  font-size: 16px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 100%;
 }
 
 .descricao {
-  align-self: center;
-  text-align: center;
-  background: #f7f7f7;
-  padding: 20px;
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  text-align: justify;
+  background: #d0cece;
+  padding: 40px;
+  align-content: center;
 }
